@@ -5,6 +5,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Reservation from './components/Reservation';
 import Contact from './components/Contact';
+import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Menu />
       <Reservation />
       <Contact />
+      <Reviews />
       <Footer />
     </div>
   );
