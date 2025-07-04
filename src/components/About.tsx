@@ -65,6 +65,7 @@ const About = () => {
               <img
                 src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Intérieur du restaurant"
+                loading="lazy"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
@@ -73,11 +74,13 @@ const About = () => {
               <img
                 src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Préparation des desserts"
+                loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
               />
               <img
                 src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Pâtes fraîches"
+                loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
               />
             </div>
